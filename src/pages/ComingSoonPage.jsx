@@ -86,7 +86,7 @@ const ComingSoonPage = () => {
       <header className="relative z-10 w-full px-6 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="APlusMedDepot logo" className="h-9 w-auto object-contain" />
+            <img src={logo} alt="APlusMedDepot logo" className="h-14 w-auto object-contain" />
             <span className="font-display text-2xl text-neutral">
               A<span className="text-primary">Plus</span>MedDepot
             </span>
@@ -119,7 +119,7 @@ const ComingSoonPage = () => {
           Your Medical{' '}
           <span
             className="text-transparent bg-clip-text"
-            style={{ backgroundImage: 'linear-gradient(to right, #F03C3C, #002850)' }}
+            style={{ backgroundColor: '#F03C3C' }}
           >
             Supplies Hub
           </span>{' '}
@@ -134,19 +134,7 @@ const ComingSoonPage = () => {
           certified medical equipment and supplies, delivered with care.
         </p>
 
-        {/* Countdown */}
-        <div
-          className="flex items-start gap-4 md:gap-8 mb-12 animate-slide-up"
-          style={{ animationDelay: '300ms' }}
-        >
-          <CountdownUnit value={timeLeft.days ?? '--'} label="Days" />
-          <div className="text-3xl font-display text-primary/40 mt-4">:</div>
-          <CountdownUnit value={timeLeft.hours ?? '--'} label="Hours" />
-          <div className="text-3xl font-display text-primary/40 mt-4">:</div>
-          <CountdownUnit value={timeLeft.minutes ?? '--'} label="Minutes" />
-          <div className="text-3xl font-display text-primary/40 mt-4">:</div>
-          <CountdownUnit value={timeLeft.seconds ?? '--'} label="Seconds" />
-        </div>
+        
 
         {/* Email Signup */}
         <div

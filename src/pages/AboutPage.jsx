@@ -6,7 +6,7 @@ const AboutPage = () => {
   const founders = [
     {
       name: 'Arnold',
-      title: 'Co-Founder & CEO',
+      title: 'Co-Founder',
       initials: 'A',
       bgColor: '#F03C3C',  // Solid red
       bio: 'With a passion for improving healthcare accessibility, Arnold co-founded APlusMedDepot to bridge the gap between quality medical suppliers and healthcare professionals. His vision drives the platform\'s mission to make certified medical supplies available to every clinic, hospital, and care facility.',
@@ -15,7 +15,7 @@ const AboutPage = () => {
     },
     {
       name: 'Louie',
-      title: 'Co-Founder & COO',
+      title: 'Co-Founder',
       initials: 'L',
       bgColor: '#002850',  // Solid navy
       bio: 'Louie brings deep operational expertise to APlusMedDepot, ensuring that every order reaches healthcare providers reliably and on time. His focus on building trusted vendor partnerships and streamlined logistics has been key to the platform\'s growth and reputation for quality.',
