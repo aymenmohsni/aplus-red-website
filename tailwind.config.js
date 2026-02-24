@@ -46,6 +46,9 @@ export default {
         blue:{
           DEFAULT: "#0c4a6e",
         },
+        lightblue:{
+          DEFAULT: "#0ea5e9"
+        }
       },
       fontFamily: {
         'display': ['DM Serif Display', 'serif'],
