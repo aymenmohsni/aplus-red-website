@@ -131,7 +131,7 @@ const ComingSoonPage = () => {
           style={{ animationDelay: '200ms' }}
         >
           We're putting the finishing touches on APlusMedDepot — your one-stop marketplace for
-          certified medical equipment and supplies, delivered with care.
+          certified medical supplies, delivered with care.
         </p>
 
         
