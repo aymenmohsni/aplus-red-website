@@ -93,7 +93,7 @@ const ComingSoonPage = () => {
           </div>
 
           <a
-            href="mailto:support@aplusmed.com"
+            href="mailto:support@aplusmeddepot.com"
             className="hidden sm:flex items-center gap-2 text-sm text-gray-500 hover:text-primary transition-colors"
           >
             <Mail className="w-4 h-4" />
