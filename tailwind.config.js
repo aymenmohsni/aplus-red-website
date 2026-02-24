@@ -42,7 +42,10 @@ export default {
           navy: '#002850',
           lightRed: '#fee2e2',
           lightBlue: '#e0effe',
-        }
+        },
+        blue:{
+          DEFAULT: "#0c4a6e",
+        },
       },
       fontFamily: {
         'display': ['DM Serif Display', 'serif'],

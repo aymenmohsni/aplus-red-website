@@ -88,7 +88,7 @@ const ComingSoonPage = () => {
           <div className="flex items-center space-x-2">
             <img src={logo} alt="APlusMedDepot logo" className="h-14 w-auto object-contain" />
             <span className="font-display text-2xl text-neutral">
-              A<span className="text-primary">Plus</span>MedDepot
+              <span className="text-primary">APlus</span><span className="text-blue">MedDepot</span>
             </span>
           </div>
 
