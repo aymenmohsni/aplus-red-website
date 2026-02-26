@@ -63,7 +63,7 @@ function App() {
       <div className="min-h-screen flex flex-col">
         <Routes>
           {/* Public Routes with Navbar */}
-          {/* <Route path="/" element={
+          <Route path="/" element={
             <>
               <Navbar />
               <main className="flex-grow">
@@ -71,7 +71,7 @@ function App() {
               </main>
               <Footer />
             </>
-          } /> */}
+          } />
           
           <Route path="/login" element={
             <>
@@ -226,7 +226,7 @@ function App() {
           </Route>
           
           {/* Coming Soon Page */}
-          <Route path="/" element={<ComingSoonPage />} />
+          <Route path="/coming-soon" element={<ComingSoonPage />} />
 
           {/* 404 Route */}
           {/* <Route path="*" element={
