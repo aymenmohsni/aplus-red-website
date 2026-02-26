@@ -195,7 +195,7 @@ const ComingSoonPage = () => {
       <footer className="relative z-10 w-full px-6 py-6 text-center">
         <div className="max-w-7xl mx-auto border-t border-gray-100 pt-6">
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} APlusMedDepot. All rights reserved. &nbsp;·&nbsp;
+            &copy; {new Date().getFullYear()} APlusMedDepot.com. All rights reserved. &nbsp;·&nbsp;
             <a href="mailto:support@aplusmeddepot.com" className="hover:text-primary transition-colors">
               Contact Us
             </a>
