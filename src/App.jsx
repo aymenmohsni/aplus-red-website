@@ -71,14 +71,14 @@ function App() {
           {/* 404 Route */}
           <Route path="*" element={
             <>
-              <Navbar />
+              {/* <Navbar /> */}
               <main className="flex-grow flex items-center justify-center">
                 <div className="text-center">
                   <h1 className="text-6xl font-display text-primary mb-4">404</h1>
                   <p className="text-xl text-gray-600">Page not found</p>
                 </div>
               </main>
-              <Footer />
+              {/* <Footer /> */}
             </>
           } />
         </Routes>

@@ -106,9 +106,9 @@ const ComingSoonPage = () => {
       <main className="relative z-10 flex-grow flex flex-col items-center justify-center px-6 py-12 text-center">
 
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-primary/20 rounded-full px-4 py-2 mb-8 shadow-sm animate-fade-in">
-          <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-          <span className="text-sm font-semibold text-gray-600 tracking-wide">Launching Soon</span>
+        <div className="inline-flex items-center gap-2   rounded-full px-4 py-2 mb-8">
+          
+          <span className="text-lg font-semibold text-gray-600 tracking-wide">Launching Soon</span>
         </div>
 
         {/* Headline */}
