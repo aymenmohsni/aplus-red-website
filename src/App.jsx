@@ -69,7 +69,7 @@ function App() {
           <Route path="/" element={<ComingSoonPage />} />
 
           {/* 404 Route */}
-          {/* <Route path="*" element={
+          <Route path="*" element={
             <>
               <Navbar />
               <main className="flex-grow flex items-center justify-center">
@@ -80,7 +80,7 @@ function App() {
               </main>
               <Footer />
             </>
-          } /> */}
+          } />
         </Routes>
       </div>
     </Router>
