@@ -86,7 +86,7 @@ const ComingSoonPage = () => {
       <header className="relative z-10 w-full px-6 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="APlusMedDepot logo" className="h-14 w-auto object-contain" />
+            {/* <img src={logo} alt="APlusMedDepot logo" className="h-14 w-auto object-contain" /> */}
             <span className="font-display text-2xl text-neutral">
               <span className="text-primary">APlus</span><span className="text-lightblue">MedDepot</span>
             </span>
